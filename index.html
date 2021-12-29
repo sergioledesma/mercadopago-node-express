@@ -27,7 +27,9 @@
                         <hr>
                         <h4>Precio $4000</h4>
                         <div>
-                            <form action="">
+                            <form action="http://localhost:3000/checkout" methods="POST">
+                                <input type="hidden" name="title" value="Camisa hombre manga larga">
+                                <input type="hidden" name="price" value="4000">
                                 <input style="width: -webkit-fill-available" type="sumbit" value="Comprar ahora" class="btn btn-primary btn-block">
                             </form>
                         </div>
